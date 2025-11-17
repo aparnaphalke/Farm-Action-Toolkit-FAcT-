@@ -1,0 +1,17 @@
+name: fact-apvm-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy=1.26.4
+  - pandas=2.2.1
+  - scikit-learn=1.3.2
+  - matplotlib=3.8.2
+  - xarray=2023.12.0
+  - geopandas=0.14.1
+  - rasterio=1.3.9
+  - shapely=2.0.2
+  - pip
+  - pip:
+      - earthengine-api==0.1.391
+      - google-auth==2.24.0
